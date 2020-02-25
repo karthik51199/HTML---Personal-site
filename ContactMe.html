@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ContactMe</title>
+  </head>
+  <body>
+    <p>Here are my details:</p>
+    <p>Email:karthik51199@gmail.com <br>mob:9381019457</p>
+
+
+    <form method="post" action="mailto:hello@gmail.com" target="_self" enctype="text/plain" >
+
+      Name &nbsp;&nbsp;&nbsp;&nbsp;:
+      <input type="text" name="myText" placeholder="Enter your name" maxlength="3"><br><br>
+
+      Password &nbsp:
+      <input type="password" name="myPassword"  /><br>
+
+      Description:<br>
+      <textarea name="description"rows="1" cols="50">
+      </textarea><br>
+
+      Hobbies:<br>
+      <input type="checkbox" name="music" checked />Music <br>
+      <input type="checkbox" name="sports" />Sports <br>
+      <input type="checkbox" name="dance"  />Dance <br>
+
+      Gender:<br>
+      <input type="radio" name="gender" value="Male"/>Male <br>
+      <input type="radio" name="gender" value="Female" checked />Female <br>
+
+      Technology:<br>
+      <select name="tech">
+        <option value="blockchain">BlockChain</option>
+        <option value="webdev">WebDevelopment</option>
+        <option value="appdev" selected>AppDevelopment</option>
+      </select>
+
+      <input type="submit" name="mySubmit" value="SUBMIT"><br />
+
+      <input type="reset" name="rbutton" value="RESET" /><br>
+
+      <input type="button" name="ok" value="OK" /><br>
+
+      <input type="image" name="ibutton" src="C:\Users\DELL\Desktop\pic.jpg" /><br>
+
+      <input type="file" name="myfile" accept="image/*" />
+
+    </form>
+
+
+
+  </body>
+</html>
